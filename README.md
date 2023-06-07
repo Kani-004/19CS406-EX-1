@@ -61,11 +61,10 @@ print(s.getsockname())
 print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ~~~
-
+# output
 ![image](https://github.com/Kani-004/19CS406-EX-1/assets/129577149/d9566bb2-2aba-4691-8935-3716588e943d)
-~~~
+
 # RESULT: 
 
 Thus, the program to implement socket programming date and time display from client to server using TCP Sockets was successfully executed.
 
-~~~
